@@ -71,7 +71,7 @@ root = Tk()
 
 backend.connect()
 
-L1 = Label(root, text="Title")
+L1 = Label(root, text="URL")
 L1.grid(row=0, column=0)
 
 URL_text=StringVar()
